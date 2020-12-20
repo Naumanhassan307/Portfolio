@@ -12,7 +12,20 @@
     display: inline-block;
     margin: 5px 30px;
 }
-
+#imgd{
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    background-color: forestgreen;
+    margin:10px 22px ;
+    border-radius: 125px;
+}
+button{
+    border: 1px solid black;
+    width: 300px;
+    height: 80px;
+    margin-top: 5px;
+}
 
 
 /* right main div start */
@@ -34,20 +47,27 @@
     width: 800px;
     height: 150px;
     background-color: cyan;
+    margin: 10px 40px;
 } 
+
+
+
+
 #htm{
     border: 1px solid black;
     width: 800px;
     height: 225px;
     background-color: yellow;
-    
+    margin: 20px 40px;
 }
+
 #html{
     border: 1px solid black;
     width: 350px;
     height: 200px;
     background-color: forestgreen;
     display: inline-block;
+    margin: 5px 20px ;
 }
 #htmr{
     border: 1px solid black;
@@ -55,14 +75,21 @@
     height: 200px;
     background-color: hotpink;
     display: inline-block;
+    margin: 5px 20px ;
 }
+
+
+
+
+
+
 
 #css{
     border: 1px solid black;
     width: 800px;
     height: 225px;
     background-color: red;
-    /* display: flex; */
+    margin: 20px 40px;
 }
 #cssl{
     border: 1px solid black;
@@ -70,6 +97,7 @@
     height: 200px;
     background-color: hotpink;
     display: inline-block;
+    margin: 5px 20px ;
 }
 #cssr{
     border: 1px solid black;
@@ -77,4 +105,5 @@
     height: 200px;
     background-color: forestgreen;
     display: inline-block;
+    margin: 5px 20px ;
 }
