@@ -2,10 +2,79 @@
     margin: 0px;
     padding: 0px;
 }
+
 /* left main div start */
 #lmd{
     border: 1px solid black;
-    width: 200px;
-    height: auto;
+    width: 300px;
+    height: 800px;
     background-color: rgb(141, 15, 15);
+    display: inline-block;
+    margin: 5px 30px;
+}
+
+
+
+/* right main div start */
+#rmd{
+    border: 1px solid black;
+    width: 900px;
+    height: 800px;
+    background-color:chartreuse;
+    display: inline-block;
+    margin: 5px 30px;
+    
+}
+
+
+
+
+#about{
+    border: 1px solid black;
+    width: 800px;
+    height: 150px;
+    background-color: cyan;
+} 
+#htm{
+    border: 1px solid black;
+    width: 800px;
+    height: 225px;
+    background-color: yellow;
+    
+}
+#html{
+    border: 1px solid black;
+    width: 350px;
+    height: 200px;
+    background-color: forestgreen;
+    display: inline-block;
+}
+#htmr{
+    border: 1px solid black;
+    width: 350px;
+    height: 200px;
+    background-color: hotpink;
+    display: inline-block;
+}
+
+#css{
+    border: 1px solid black;
+    width: 800px;
+    height: 225px;
+    background-color: red;
+    /* display: flex; */
+}
+#cssl{
+    border: 1px solid black;
+    width: 350px;
+    height: 200px;
+    background-color: hotpink;
+    display: inline-block;
+}
+#cssr{
+    border: 1px solid black;
+    width: 350px;
+    height: 200px;
+    background-color: forestgreen;
+    display: inline-block;
 }
