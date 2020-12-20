@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* left main div start */
+#lmd{
+    border: 1px solid black;
+    width: 200px;
+    height: auto;
+    background-color: rgb(141, 15, 15);
+}
