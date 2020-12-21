@@ -3,21 +3,25 @@
     padding: 0px;
 }
 
+body{
+    background-color:rgba(176, 231, 226, 0.527);
+}
 
 /* left main div start */
 #lmd{
-    border: 1px solid black;
+    border: 1px ;
+    border-radius: 5px;
     width: 300px;
     height: 800px;
-    background-color: rgb(141, 15, 15);
+    background-color: rgba(141, 15, 15, 0.527);
+    box-shadow: 5px 5px 40px  rgb(141, 15, 15);
     display: inline-block;
     margin: 5px 30px;
 }
 #imgd{
-    border: 1px solid black;
+    
     width: 250px;
     height: 250px;
-    background-color: forestgreen;
     margin:10px 22px ;
     border-radius: 125px;
 }
@@ -28,19 +32,21 @@
     border-radius: 125px;
 }
 button{
-    border: 1px solid black;
+    background-color: rgba(185, 137, 137, 0.527);
     width: 300px;
     height: 80px;
     margin-top: 5px;
+    color: cornsilk;
+    font-weight: normal;
 }
 
 
 /* right main div start */
 #rmd{
-    border: 1px solid black;
+    
     width: 900px;
     height: 800px;
-    background-color:chartreuse;
+    
     display: inline-block;
     margin: 5px 30px;
     
@@ -50,10 +56,11 @@ button{
 
 
 #about{
-    border: 1px solid black;
+    padding-top: 10px;
     width: 800px;
     height: 150px;
-    background-color: cyan;
+    text-align: center;
+    color: ;
     margin: 10px 40px;
 } 
 
@@ -61,26 +68,26 @@ button{
 
 
 #htm{
-    border: 1px solid black;
+    
     width: 800px;
     height: 225px;
-    background-color: yellow;
+   
     margin: 20px 40px;
 }
 
 #html{
-    border: 1px solid black;
+   
     width: 350px;
     height: 200px;
-    background-color: forestgreen;
+
     display: inline-block;
     margin: 5px 20px ;
 }
 #htmr{
-    border: 1px solid black;
+    
     width: 350px;
     height: 200px;
-    background-color: hotpink;
+   
     display: inline-block;
     margin: 5px 20px ;
 }
@@ -92,25 +99,32 @@ button{
 
 
 #css{
-    border: 1px solid black;
+    
     width: 800px;
     height: 225px;
-    background-color: red;
+  
     margin: 20px 40px;
 }
 #cssl{
-    border: 1px solid black;
+    
     width: 350px;
     height: 200px;
-    background-color: hotpink;
+    
     display: inline-block;
     margin: 5px 20px ;
 }
 #cssr{
-    border: 1px solid black;
+    
     width: 350px;
     height: 200px;
-    background-color: forestgreen;
+    
     display: inline-block;
     margin: 5px 20px ;
+}
+.im{
+   
+    width: 300px;
+    height: 200px;
+    border: 1px;
+    border-radius: 5px;
 }
